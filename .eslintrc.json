@@ -1,0 +1,20 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier", "no-loops"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "semi": 1,
+    "max-len": [1, { "code": 100 }],
+    "no-console": 0,
+    "no-unused-vars": 1,
+    "import/prefer-default-export": 0,
+    "no-use-before-define": 0,
+    "no-loops/no-loops": 2,
+    "prettier/prettier": 1
+  }
+}
